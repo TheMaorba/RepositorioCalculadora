@@ -30,4 +30,8 @@ def validacion(n):
         return "Operacion incorrecta"
 
 # Imprime el resultado
-print("El resultado de la operación es:", validacion(n))
+try:
+    print("El resultado de la operación es:", validacion(n))
+except Exception as error:
+    print(str(error))
+    
