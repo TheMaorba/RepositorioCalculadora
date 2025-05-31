@@ -11,7 +11,7 @@ numero2 = float(input("Introduce el segundo número: "))
 
 
 #Con este comando la calculadora para a pedir el ingreso de la operación
-n = int(input("Selecciona la operación que deseas realizar: Sumar(1). Restar(2). Multiplicar(3). Dividir(4)"))
+n = int(input("Selecciona la operación que deseas realizar: Sumar(1). Restar(2). Multiplicar(3). Dividir(4) "))
 
 
 def validacion(n):
