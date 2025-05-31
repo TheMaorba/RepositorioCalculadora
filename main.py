@@ -11,7 +11,7 @@ numero2 = float(input("Introduce el segundo número: "))
 
 
 #Con este comando la calculadora para a pedir el ingreso de la operación
-n = int(input("Selecciona la operación que deseas realizar: Sumar(1). Restar(2). Multiplicar(3). Dividir(4) "))
+n = int(input("Selecciona la operación que deseas realizar: Sumar(1). Restar(2). Multiplicar(3). Dividir(4)  "))
 
 
 def validacion(n):
@@ -23,6 +23,8 @@ def validacion(n):
     elif n == 3:
         return numero1 * numero2
     elif n == 4:
+        if numero2 == 0:
+            raise  Exception("No se puede dividor entre 0")
         return numero1 / numero2
     else:
         return "Operacion incorrecta"
