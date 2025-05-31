@@ -34,4 +34,6 @@ try:
     print("El resultado de la operación es:", validacion(n))
 except Exception as error:
     print(str(error))
-    
+
+print("Hola mama, estoy triunfiando con git/github")
+print("Atte. Jesus y Mateo")
