@@ -14,7 +14,6 @@ numero2 = float(input("Introduce el segundo número: "))
 n = int("Selecciona la operación que deseas realizar: \n1. Sumar\n2. Restar\n3. Multiplicar\n4. Dividir\n")
 
 
-
 def validacion(n):
     # Con estos comandos la calculadora realiza las operaciones
     if n == 1:
